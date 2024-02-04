@@ -2,6 +2,7 @@ import { useRoutes } from "react-router-dom"
 import routes from "../routes"
 
 import Sidebar from './Components/Module/Sidebar/Sidebar'
+import Header from "./Components/Module/Header/Header"
 
 function App() {
   const router = useRoutes(routes)
@@ -14,7 +15,9 @@ function App() {
           </div>
           <div className="col-lg-9">
             <div className="row">
-              <div className="col-12">navbar</div>
+              <div className="col-12">
+                <Header/>
+              </div>
               <div className="col-12 mt-5">
                 {router}
               </div>

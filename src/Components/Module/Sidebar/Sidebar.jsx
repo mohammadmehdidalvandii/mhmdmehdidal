@@ -16,7 +16,7 @@ function Sidebar() {
         setActiveMenu(pathName)
     },[location])
   return (
-    <section className="sidebar">
+    <section className="sidebar bg_back">
         <div className="wrapper_sidebar">
             <ul className="sidebar_items">
             <li className="sidebar_item">
