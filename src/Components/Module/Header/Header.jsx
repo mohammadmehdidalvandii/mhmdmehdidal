@@ -1,6 +1,8 @@
-import { Link, NavLink } from 'react-router-dom'
+import {  Link, NavLink } from 'react-router-dom'
 import './Header.css'
 import { FaInstagram, FaGithub, FaTelegram   } from "react-icons/fa";
+
+import resume from '../../../assets/resume.pdf'
 
 
 function Header() {
@@ -28,7 +30,7 @@ function Header() {
                     </span>
                 </NavLink>
             </div>
-            <Link src="" className='header_resume' target='_blank' download>دانلود رزومه</Link>
+            <a href={resume} className='header_resume' target='_blank' download="mohammadmehdidalvadni-pdf">دانلود رزومه</a>
         </div>
     </section>
   )
