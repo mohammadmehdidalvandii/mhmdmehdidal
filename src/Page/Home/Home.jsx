@@ -1,7 +1,10 @@
+import HomeHeader from "../../Components/Template/home/HomeHeader"
 
 function Home() {
   return (
-    <div>Home</div>
+    <section className="bg_back">
+        <HomeHeader/>
+    </section>
   )
 }
 
