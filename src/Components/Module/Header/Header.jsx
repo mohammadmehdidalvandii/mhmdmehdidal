@@ -30,7 +30,7 @@ function Header() {
                     </span>
                 </NavLink>
             </div>
-            <a href={resume} className='header_resume' target='_blank' download="mohammadmehdidalvadni-pdf">دانلود رزومه</a>
+            <a href={resume} className='header_resume button_yellow' target='_blank' download="mohammadmehdidalvadni-pdf">دانلود رزومه</a>
         </div>
     </section>
   )
