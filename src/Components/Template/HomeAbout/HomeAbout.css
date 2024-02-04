@@ -1,0 +1,33 @@
+.homeAbout{
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+}
+.homeAbout_desc{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.homeAbout_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.homeAbout_items{
+    display: block;
+}
+.homeAbout_item{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.homeAbout_item_title{
+    font-family: var(--font-bold);
+    font-size: 1.3rem;
+}
+.homeAbout_item_text{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    color: #eeee;
+}
