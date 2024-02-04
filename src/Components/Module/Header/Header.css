@@ -1,3 +1,67 @@
 .header{
 display: block;
 }
+.wrapper_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_title_textJob{
+    display: flex;
+    align-items: center;
+}
+.header_title{
+    font-family: var(--font-black);
+    font-size: 1.5rem;
+}
+.header_textJob{
+    font-family: var(--font-bold);
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: var(--color-black);
+    margin-right: 0.4rem;
+    background-color: var(--color-yellow-2);
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+.header_media{
+    display: flex;
+    align-items: center;
+}
+.header_media_link{
+margin: 0 0.3rem;
+}
+.header_media_icon{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--color-white);
+}
+.link_icon_insta{
+    color: red;
+}
+.link_icon_git{
+    color: var(--color-black);
+}
+.link_icon_tel{
+
+}
+.header_resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--color-yellow-1);
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    color: var(--color-black);
+    transition: all 0.4s ease-in;
+}
+.header_resume:hover{
+    background-color: var(--color-white);
+}
