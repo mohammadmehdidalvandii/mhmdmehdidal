@@ -1,0 +1,16 @@
+.wrapper_title{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: var(--font-bold);
+}
+.title{
+    font-size: 1.9rem;
+    
+}
+.text{
+    display: block;
+    margin-right: 0.4rem;
+    font-size: 1.9rem;
+    color: var(--color-yellow-1);
+}
