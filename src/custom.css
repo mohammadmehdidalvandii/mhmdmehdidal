@@ -62,3 +62,21 @@ body{
     border-radius: 0.5rem;
 }
 /* <<<<<<<< Style bg_back>>>>>>>> */
+
+/* <<<<<<<< Style Button_yellow>>>>>>>> */
+.button_yellow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--color-yellow-1);
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    color: var(--color-black);
+    transition: all 0.4s ease-in;
+}
+.button_yellow:hover{
+    background-color: var(--color-white);
+}
+/* <<<<<<<< Style Button_yellow>>>>>>>> */
