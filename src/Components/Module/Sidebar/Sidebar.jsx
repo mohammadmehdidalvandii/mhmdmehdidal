@@ -33,7 +33,7 @@ function Sidebar() {
                     </NavLink>
                 </li>
                 <li className="sidebar_item">
-                    <NavLink to='/r'className={`sidebar_item_link ${activeMenu === '/r' ? "sidebar_item_linkActive" :""}`} >
+                    <NavLink to='/Resume'className={`sidebar_item_link ${activeMenu === '/Resume' ? "sidebar_item_linkActive " :""}`} >
                         <span className="sidebar_item_icon">
                             <IoDocumentText />
                         </span>
