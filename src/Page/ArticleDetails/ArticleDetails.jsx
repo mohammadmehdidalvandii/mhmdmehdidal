@@ -1,8 +1,10 @@
-
+import ArticleDe from "../../Components/Template/articleDetail/ArticleDe"
 
 function ArticleDetails() {
   return (
-    <div>ArticleDetails</div>
+   <section className="bg_back">
+    <ArticleDe/>
+   </section>
   )
 }
 
