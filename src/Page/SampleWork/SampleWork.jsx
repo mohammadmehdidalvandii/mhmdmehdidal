@@ -1,8 +1,11 @@
+import SampleWorks from "../../Components/Template/samplework/SampleWorks"
 
 
 function SampleWork() {
   return (
-    <div>SampleWork</div>
+   <section className="bg_back">
+      <SampleWorks/>
+   </section>
   )
 }
 
