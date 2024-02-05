@@ -3,12 +3,14 @@ import routes from "../routes"
 
 import Sidebar from './Components/Module/Sidebar/Sidebar'
 import Header from "./Components/Module/Header/Header"
+import Menu from "./Components/Module/Menu/Menu"
 
 function App() {
   const router = useRoutes(routes)
 
   return (
     <div className="container">
+      <Menu/>
         <div className="row mt-5 mb-5">
           <div className="col-lg-3">
             <Sidebar/>
