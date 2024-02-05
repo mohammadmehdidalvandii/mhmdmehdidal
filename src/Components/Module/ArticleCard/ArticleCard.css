@@ -1,0 +1,30 @@
+.articleCard{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: var(--color-gray);
+    overflow: hidden;
+    border-radius: 0.6rem;
+    transition: all 0.4s linear;
+}
+.articleCard:hover .articleCard_title{
+    color: var(--color-yellow-1);
+}
+.articleCard_img{
+    width: 100%;
+}
+.articleCard_content{
+    display: block;
+    padding: 1rem;
+}
+.articleCard_title{
+    font-family: var(--font-black);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: var(--color-white);
+}
+.articleCard_desc{
+    font-size: 1rem;
+    color: var(--color-white);
+}
