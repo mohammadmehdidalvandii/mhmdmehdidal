@@ -1,5 +1,5 @@
-import HomeAbout from "../../Components/Template/HomeAbout/HomeAbout"
-import HomeHeader from "../../Components/Template/home/HomeHeader"
+import HomeAbout from "../../Components/Template/home/HomeAbout/HomeAbout"
+import HomeHeader from "../../Components/Template/home/HomeHeader/HomeHeader"
 
 function Home() {
   return (

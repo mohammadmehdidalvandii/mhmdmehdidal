@@ -1,0 +1,39 @@
+.service{
+    display: block;
+    width: 100%;
+}
+.service_card{
+display: flex;
+align-items: center;
+}
+.service_card_img{
+width: 250px;
+}
+.service_card_content{
+    display: block;
+}
+.service_card_title{
+font-family: var(--font-black);
+font-size: 2rem;
+color: var(--color-yellow-1);
+}
+.service_card_desc{
+font-size: 1rem;
+color: var(--color-bg-1);
+}
+.commentCard{
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--color-gray);
+    border-radius: 0.5rem;
+}
+.commentCard_name{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: var(--color-yellow-1);
+}
+.commentCard_text{
+
+}

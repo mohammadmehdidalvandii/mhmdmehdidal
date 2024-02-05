@@ -1,8 +1,10 @@
-
+import Service from "../../Components/Template/services/service"
 
 function Services() {
   return (
-    <div>Services</div>
+    <section className="bg_back">
+      <Service/>
+    </section>
   )
 }
 
