@@ -1,0 +1,30 @@
+.sampleCard{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    position: relative;
+    transition: all 0.4s linear;
+}
+.sampleCard:hover .sampleCard_img{
+    opacity: 0.5;
+}
+.sampleCard:hover .sampleCard_name{
+    display: block;
+}
+.sampleCard_img{
+width: 100%;
+border-radius: 0.5rem;
+transition: all 0.4s linear;
+}
+.sampleCard_name{
+    display: none;
+    padding-right: 0.3rem;
+    position: absolute;
+    bottom: 1rem;
+    font-size: 1.3rem;
+    color: var(--color-yellow-1);
+    transition: all 0.4s linear;
+}
