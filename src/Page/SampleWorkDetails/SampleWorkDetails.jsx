@@ -1,8 +1,11 @@
+import SampleDe from "../../Components/Template/sampleDetails/SampleDe"
 
 
 function SampleWorkDetails() {
   return (
-    <div>SampleWorkDetails</div>
+    <section className="bg_back">
+      <SampleDe/>
+    </section>
   )
 }
 
