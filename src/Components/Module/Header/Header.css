@@ -5,6 +5,7 @@ display: block;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .header_title_textJob{
     display: flex;
@@ -27,6 +28,7 @@ display: block;
 .header_media{
     display: flex;
     align-items: center;
+    padding: 1rem 0;
 }
 .header_media_link{
 margin: 0 0.3rem;
