@@ -4,7 +4,7 @@ import './ArticleCard.css'
 function ArticleCard() {
   return (
     <div className="col-lg-4 col-md-6 col-sm-12">
-                <NavLink className="articleCard">
+                <NavLink to='/Article-d' className="articleCard">
                     <img src="/assets/images/blog.jpg" alt="blog images" className="articleCard_img" />
                     <div className="articleCard_content">
                         <h4 className="articleCard_title">سئو چیست؟</h4>
