@@ -1,8 +1,10 @@
-
+import Articles from "../../Components/Template/article/Articles/Articles"
 
 function Article() {
   return (
-    <div>Article</div>
+    <section className="bg_back">
+      <Articles/>
+    </section>
   )
 }
 
