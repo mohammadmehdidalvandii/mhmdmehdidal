@@ -1,8 +1,11 @@
+import ContactMe from "../../Components/Template/contact/ContactMe"
 
 
 function Contact() {
   return (
-    <div>Contact</div>
+   <section className="bg_back">
+    <ContactMe/>
+   </section>
   )
 }
 
