@@ -1,0 +1,60 @@
+.resumeAbout{
+    display: block;
+    width: 100%;
+}
+.resumeAbout_content{
+    display: block;
+    margin-top: 1rem;
+}
+.resumeAbout_content_title{
+    font-family: var(--font-black);
+    font-size: 1.9rem;
+    font-weight: bolder;
+}
+.resumeAbout_content_desc{
+    display: block;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: var(--color-bg-1);
+}
+.resumeAbout_items{
+    display: block;
+    margin-top: 1rem
+}
+.resumeAbout_item{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--color-yellow-1);
+}
+
+.resumeAbout_percent{
+    display: block;
+    margin-top: 1rem;
+}
+.resumeAbout_percent_items{
+display: block;
+}
+.resumeAbout_percent_item{
+    margin-bottom: 2rem;
+}
+.resumeAbout_percent_text{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.resumeAbout_percent_process{
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 0.6rem;
+    background-color: var(--color-gray);
+    border-radius: 0.5rem;
+}
+.resumeAbout_percent_process::after{
+    display: block;
+    content: "";
+    width: 90%;
+    height: 100%;
+    background-color: var(--color-yellow-1);
+}

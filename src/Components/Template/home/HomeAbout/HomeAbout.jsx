@@ -1,4 +1,4 @@
-import Title from '../../Module/Title/Title'
+import Title from '../../../Module/Title/Title'
 import './HomeAbout.css'
 
 function HomeAbout() {

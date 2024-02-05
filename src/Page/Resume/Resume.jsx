@@ -1,8 +1,11 @@
+import ResumeAbout from "../../Components/Template/resume/ResumeAbout"
 
 
 function Resume() {
   return (
-    <div>Resume</div>
+    <section className="bg_back">
+        <ResumeAbout/>
+    </section>
   )
 }
 
