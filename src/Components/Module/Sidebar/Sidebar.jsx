@@ -3,7 +3,7 @@ import './Sidebar.css'
 import { IoPerson, IoDocumentText  } from "react-icons/io5";
 import { MdOutlineMiscellaneousServices, MdWorkspaces, MdArticle   } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 
@@ -11,7 +11,7 @@ function Sidebar() {
     const [activeMenu , setActiveMenu ] = useState('/')
     const location = useLocation()
 
-    useLocation(()=>{
+    useEffect(()=>{
         const pathName = location.pathname
         setActiveMenu(pathName)
     },[location])
